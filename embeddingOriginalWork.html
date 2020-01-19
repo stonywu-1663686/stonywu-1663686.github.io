@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html>
+    <style> 
+        body{text-align:center} 
+        .div_video{margin:0 auto; width:800px; height:480px}  
+        .div_audio{margin:0 auto; width:704px; height:100px}
+        .div_youtube{margin:0 auto; width:704px; height:480px} 
+        .div_txt{margin:0 auto; width:1080px; height:720px}  
+        </style> 
     <head>
-        <title>Original Work</title>
+        <title>Original Work by Stony</title>
     </head>
     <body>
-        <h1>Here is my original work</h1>
-        <img src="src/helloworld.png">
+        <h1 style="background-color:violet">Here is my original work</h1>
+        <h2 style="background-color:blueviolet">This is a youtube video which I enjoy</h2>
+        <div class="div_youtube">
+            <iframe width="704" height="480" src="https://www.youtube.com/embed/Kgle4vt3OuI?start=180" allowfullscreen name="I TURN AIRPODS into 18K AIRGOLDS - YouTube" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="float:middle" seamless></iframe>
+        </div>
+        <h2 style="background-color:blueviolet">Here are some video and audio that I like</h2>
+        <div class="div_video">
+            <video width="704" height="480" controls>
+                <source src="believer.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="div_audio">
+            <audio controls>
+                <source src="believer.mp3" type="audio/mp3">
+            </audio>  
+        </div>
+        <h2 style="background-color:blueviolet">This is the minecraft forge update log</h2>
+        <div class="div_txt">
+            <object width="1080" height="720" data="forge.txt"></object>
+        </div>
     </body>
 </html>
