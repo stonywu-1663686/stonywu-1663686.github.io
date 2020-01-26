@@ -1,0 +1,120 @@
+
+body{
+    background-image: url("minecraft-background.jpg");
+ }
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: lavender;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+ }
+
+li{
+     margin-bottom: 5px;
+ }
+
+a{
+     color: lawngreen;
+ }
+
+ #RightNav{
+    border: groove 8px grey;
+    margin-top: 100px;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: black;
+    width: 300px;
+    height: 500px;
+ }
+
+ #RightNav img{
+     position: absolute;
+ }
+
+ #RightNav h2{
+     text-align: center;
+     width: 200px;
+     height: 100px;
+     position: absolute;
+     color: rgb(200, 241, 15);
+     margin-left: 50px;
+     margin-right: 50px;
+     margin-top: 200px;
+     margin-bottom: 200px;
+     font-size: 40px;
+ }
+
+ #LeftNav{
+    border: groove 8px grey;
+    margin-top: 100px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: black;
+    width: 300px;
+    height: 500px;
+ }
+
+ #LeftNav img{
+    position: absolute;
+}
+
+ #LeftNav h2{
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    color: rgb(22, 231, 203);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-size: 40px;
+}
+
+ #Header{
+    border: double 8px grey;
+    border-radius: 10px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(112, 58, 58);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: fantasy;
+    margin-bottom: 10px;
+ }
+
+ #Content{
+    border: inset 8px grey;
+    width: 1100px;
+    text-align: center;
+    padding-bottom: 15px;
+    background-color: rgb(112, 58, 58);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+ }
+
+ #p_dotted{
+    border: dotted 5px lightgrey;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+
